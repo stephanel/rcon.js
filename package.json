@@ -1,15 +1,15 @@
 {
-  "name": "rconjs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "rcon.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "rcon.js",
+  "version": "0.0.1",
+  "description": "A dead-simple Source RCON client",
+  "url": "https://github.com/stephanel/rcon.js",
+  "author": "Stéphane Lepin",
+  "license": "WTFPLv2",
   "dependencies": {
     "read": "^1.0.7",
     "srcds-rcon": "^2.1.1"
+  },
+  "bin": {
+    "rcon-client": "rcon.js"
   }
 }
